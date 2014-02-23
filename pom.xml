@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+    <groupId>com.acknsyn.brandon</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>oss-parent</name>
+    <description>parent pom for all open source projects</description>
+
+    <developers>
+        <developer>
+            <id>batkinson</id>
+            <name>Brandon Atkinson</name>
+            <email>brandon.n.atkinson@gmail.com</email>
+            <organization>acknsyn</organization>
+            <url>http://brandon.acknsyn.com</url>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/brandon-atkinson/oss-parent</url>
+        <connection>scm:git:git://github.com/brandon-atkinson/oss-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:brandon-atkinson/oss-parent.git</developerConnection>
+    </scm>
+</project>
